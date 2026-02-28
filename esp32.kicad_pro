@@ -473,6 +473,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.75,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -613,6 +627,26 @@
     [
       "ea80ac25-815d-4e11-85a3-2f7286372b15",
       "Root"
+    ],
+    [
+      "db016e3e-e9b6-47e3-b9be-77605a67beb8",
+      "flex_io1"
+    ],
+    [
+      "3863d105-56e8-4011-be13-7ccd17b68233",
+      "flex_io2"
+    ],
+    [
+      "94563207-33e7-4e62-a834-a99ee007c3f8",
+      "flex_io0"
+    ],
+    [
+      "16d0f896-9dd2-4d46-8c6f-afddb9244851",
+      "flex_io3"
+    ],
+    [
+      "e6ce2f43-44f3-4ea0-bce6-a2f6db36356d",
+      "flex_io4"
     ]
   ],
   "text_variables": {}
