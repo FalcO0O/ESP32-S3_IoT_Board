@@ -5220,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 26.035 26.67 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_1206&0805"
 			(at 46.6852 35.56 0)
 			(effects
 				(font
@@ -7080,74 +7080,6 @@
 			(project "esp32"
 				(path "/ea80ac25-815d-4e11-85a3-2f7286372b15"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 262.89 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dc22167-8087-419b-9405-4cad06555579")
-		(property "Reference" "D4"
-			(at 262.5725 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 262.5725 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 262.89 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 262.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 262.89 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90646615-5263-4ad1-8174-0e25768ada30")
-		)
-		(pin "1"
-			(uuid "7f6f9dc8-5f41-40b1-9cbc-866087f5f536")
-		)
-		(instances
-			(project "esp32"
-				(path "/ea80ac25-815d-4e11-85a3-2f7286372b15"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9333,7 +9265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Library:C_1206&0805"
 			(at 51.7652 35.56 0)
 			(effects
 				(font
@@ -9543,6 +9475,74 @@
 			(project "esp32"
 				(path "/ea80ac25-815d-4e11-85a3-2f7286372b15"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 262.89 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a378ca-9d17-4ae2-b91d-ab23ce6c52b4")
+		(property "Reference" "D2"
+			(at 262.5725 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 262.5725 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+			(at 262.89 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75b3ba25-b90d-4cd5-8333-52a2f003ca8d")
+		)
+		(pin "1"
+			(uuid "feab3b0b-37db-47ae-98c9-bdcb30ed49dd")
+		)
+		(instances
+			(project "esp32"
+				(path "/ea80ac25-815d-4e11-85a3-2f7286372b15"
+					(reference "D2")
 					(unit 1)
 				)
 			)
