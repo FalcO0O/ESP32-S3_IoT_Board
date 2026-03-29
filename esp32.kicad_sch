@@ -3607,12 +3607,6 @@
 		(uuid "55e31315-b78a-4143-a2ae-a167a0e05be1")
 	)
 	(junction
-		(at 92.71 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6812982c-b9ce-47ce-9faf-f1396bc38c45")
-	)
-	(junction
 		(at 26.67 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3659,12 +3653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4b6404f-32b4-4539-8524-22f4016b86ab")
-	)
-	(junction
-		(at 92.71 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e542b14e-45e3-4bbe-b9a4-6acfeed93ee2")
 	)
 	(junction
 		(at 102.87 30.48)
@@ -3805,16 +3793,6 @@
 			(type default)
 		)
 		(uuid "2f99b32e-21ea-4dd2-87c0-e4e917f15329")
-	)
-	(wire
-		(pts
-			(xy 92.71 38.1) (xy 96.52 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367e13c8-cf0c-4164-af34-230de769268d")
 	)
 	(wire
 		(pts
@@ -3968,16 +3946,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 30.48) (xy 90.17 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6612358f-82c6-42bb-b7f2-112afce3a58b")
-	)
-	(wire
-		(pts
 			(xy 246.38 39.37) (xy 243.84 39.37)
 		)
 		(stroke
@@ -4008,7 +3976,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 30.48) (xy 96.52 30.48)
+			(xy 90.17 30.48) (xy 96.52 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4418,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 38.1) (xy 92.71 38.1)
+			(xy 85.09 38.1) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5404,7 +5372,7 @@
 		(dnp no)
 		(uuid "263b3601-2562-425c-9c61-d01d934d998d")
 		(property "Reference" "C18"
-			(at 17.272 80.01 0)
+			(at 16.256 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,8 +5380,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 16.764 82.042 0)
+		(property "Value" "100nF"
+			(at 15.748 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,75 +6375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 92.71 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56e16447-9189-4548-8a24-ec98fa6c5195")
-		(property "Reference" "C12"
-			(at 90.424 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20pF"
-			(at 90.17 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 93.6752 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d18d54c8-ba42-4b25-9cbf-15ea2b2e0030")
-		)
-		(pin "1"
-			(uuid "51746517-2063-4c63-b7f5-b9c17ab498ff")
-		)
-		(instances
-			(project "esp32"
-				(path "/ea80ac25-815d-4e11-85a3-2f7286372b15"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 125.73 26.67 180)
 		(unit 1)
@@ -6625,7 +6524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "2.2uF"
 			(at 37.338 32.766 0)
 			(effects
 				(font
@@ -7696,7 +7595,7 @@
 		(dnp no)
 		(uuid "a0a253d2-adb7-495e-89a8-e1a90d54b5c8")
 		(property "Reference" "C19"
-			(at 35.56 80.01 0)
+			(at 35.56 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,8 +7603,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 34.798 82.042 0)
+		(property "Value" "100nF"
+			(at 34.798 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 80.01 21.59 0)
 			(effects
 				(font
