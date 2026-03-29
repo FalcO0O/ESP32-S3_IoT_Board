@@ -36,4 +36,4 @@ This repository includes all necessary files for manufacturing and assembly:
 * **Schematics:** Detailed circuit diagrams.
 * **Gerber Files:** Production-ready files for PCB fabrication.
 * **BOM (Bill of Materials):** A complete list of required components.
-* **3D Model:** The board layout in `.step` format for enclosure design.****
+* **3D Model:** The board layout in `.step` format for enclosure design.
