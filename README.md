@@ -25,6 +25,8 @@ All five 4-pin connectors share the same standardized pinout:
 | **3** | `SIG_1` | Control Pin 1 (Direct / Divider / MOSFET). |
 | **4** | `SIG_2` | Control Pin 2 (Direct / Divider / MOSFET). |
 
+## Schematics:
+
 <p align="center">
   <img src="img/schematic.png" alt="PCB schematic" height="450px">
   <img src="img/deriv_schematic.png" alt="PCB deriv-schematic" height="450px">
