@@ -28,8 +28,8 @@ All five 4-pin connectors share the same standardized pinout:
 ## Schematics:
 
 <p align="center">
-  <img src="img/schematic.png" alt="PCB schematic" height="450px">
-  <img src="img/deriv_schematic.png" alt="PCB deriv-schematic" height="450px">
+  <img src="img/schematic.png" alt="PCB schematic" height="400px">
+  <img src="img/deriv_schematic.png" alt="PCB deriv-schematic" height="400px">
 </p>
 
 ## Repository Contents
