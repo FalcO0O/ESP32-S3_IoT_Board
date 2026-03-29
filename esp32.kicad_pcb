@@ -1353,7 +1353,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D13"
-			(at 0 -2.6 0)
+			(at 0.018926 -2.940298 0)
 			(layer "F.SilkS")
 			(uuid "e9cedaf4-aaec-4259-b55c-209afd0c1315")
 			(effects
@@ -8363,7 +8363,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D15"
-			(at 0 -2.6 0)
+			(at 0 -2.940298 0)
 			(layer "F.SilkS")
 			(uuid "a1eca95e-2862-4e29-b40b-007496f80004")
 			(effects
@@ -8696,7 +8696,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D14"
-			(at 2.346826 1.259402 0)
+			(at 2.406426 0.972202 0)
 			(layer "F.SilkS")
 			(uuid "1b542993-cb75-48b2-b798-a251a2047f12")
 			(effects
@@ -22840,7 +22840,7 @@
 		(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf")
 		(tags "HTSOP 1.27")
 		(property "Reference" "U1"
-			(at -0.015 2.54 90)
+			(at -0.015 2.318 90)
 			(layer "B.SilkS")
 			(uuid "1e47538d-a855-4124-87af-db6cc6df5ee6")
 			(effects
@@ -27299,7 +27299,7 @@
 		(uuid "e3ae7b23-6633-4632-a40e-42105979e229")
 	)
 	(gr_text "39"
-		(at 105.5624 139.2936 270)
+		(at 106.8 141.2 90)
 		(layer "F.SilkS")
 		(uuid "05d6e7b6-3939-430d-b9fe-f247acef2059")
 		(effects
@@ -27407,7 +27407,7 @@
 		)
 	)
 	(gr_text "40"
-		(at 105.5116 118.6688 270)
+		(at 106.6 120.4 90)
 		(layer "F.SilkS")
 		(uuid "3a0849f7-b811-4a7a-b10f-8a578a4b1086")
 		(effects
@@ -27443,7 +27443,7 @@
 		)
 	)
 	(gr_text "SPI0"
-		(at 113.03 109.22 270)
+		(at 114.2 112.6 90)
 		(layer "F.SilkS")
 		(uuid "7ba6bb7d-7dfa-4122-9ca3-8cd6f4a68888")
 		(effects
@@ -27551,7 +27551,7 @@
 		)
 	)
 	(gr_text "SPI1"
-		(at 113.03 102.87 270)
+		(at 114.2 106.2 90)
 		(layer "F.SilkS")
 		(uuid "b2bc7f18-6dd9-4334-84cb-2c6404ab5255")
 		(effects
@@ -27599,7 +27599,7 @@
 		)
 	)
 	(gr_text "D0"
-		(at 113.538 140.462 270)
+		(at 114.6 142.4 90)
 		(layer "F.SilkS")
 		(uuid "c43b8390-d475-4357-830f-5abbc2747c20")
 		(effects
@@ -27611,7 +27611,7 @@
 		)
 	)
 	(gr_text "D1"
-		(at 113.538 122.682 270)
+		(at 114.6 124.6 90)
 		(layer "F.SilkS")
 		(uuid "c969ec79-28e2-4af4-b469-14bacff02d9e")
 		(effects
@@ -27623,7 +27623,7 @@
 		)
 	)
 	(gr_text "41"
-		(at 105.5116 121.5136 270)
+		(at 106.6 123.4 90)
 		(layer "F.SilkS")
 		(uuid "d5ac84b0-2e2d-4191-8561-152ad377dd5b")
 		(effects
@@ -27707,7 +27707,7 @@
 		)
 	)
 	(gr_text "38"
-		(at 105.5624 136.4488 270)
+		(at 106.8 138.2 90)
 		(layer "F.SilkS")
 		(uuid "e8847e41-caee-4da2-a013-e2a5c05f9c0e")
 		(effects
