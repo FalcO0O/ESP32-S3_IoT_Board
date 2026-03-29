@@ -1,6 +1,6 @@
-# IO Expansion Board for ESP32S3
+# ESP32-S3 IoT Carrier Board
 
-A simple and versatile IO expansion board (PCB) designed to simplify the integration of IoT sensors and actuators with the ESP32S3.
+A simple and versatile IO carrier board (PCB) designed to simplify the integration of IoT sensors and actuators with the ESP32S3.
 
 ![PCB sideview](img/pcb1.png)
 
